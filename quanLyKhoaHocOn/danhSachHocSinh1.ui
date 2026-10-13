@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>100</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>DANH SÁCH HỌC SINH </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>GIÁO VIÊN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>gv.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_6">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>570</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>exit.png</normaloff>exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>160</y>
+      <width>1001</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Họ và tên</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ngày sinh</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Giới tính</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gmail</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Số điện thoại</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Khóa học</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Điểm quá trình</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Điểm cuối kì</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chọn khóa học</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>570</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chấm điểm</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>chamDiem.jpg</normaloff>chamDiem.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>570</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tạo bài tập</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>baiTap.png</normaloff>baiTap.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_10">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>570</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Xem bài làm</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>xem.png</normaloff>xem.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
